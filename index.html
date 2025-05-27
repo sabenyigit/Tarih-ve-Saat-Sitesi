@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dünya Saatleri ve Özel Günler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dünya Saatleri ve Özel Günler</h1>
+        
+        <div class="country-selector">
+            <select id="countrySelect">
+                <option value="tr">Türkiye</option>
+                <option value="us">Amerika Birleşik Devletleri</option>
+                <option value="gb">Birleşik Krallık</option>
+                <option value="jp">Japonya</option>
+                <option value="de">Almanya</option>
+                <option value="fr">Fransa</option>
+                <option value="it">İtalya</option>
+                <option value="es">İspanya</option>
+                <option value="ru">Rusya</option>
+                <option value="cn">Çin</option>
+                <option value="in">Hindistan</option>
+                <option value="br">Brezilya</option>
+                <option value="au">Avustralya</option>
+                <option value="ca">Kanada</option>
+                <option value="za">Güney Afrika</option>
+            </select>
+        </div>
+
+        <div class="clock-container">
+            <div class="clock-card">
+                <h2 id="selected-country">Türkiye</h2>
+                <div class="time" id="current-time"></div>
+                <div class="date" id="current-date"></div>
+            </div>
+        </div>
+
+        <div class="special-dates">
+            <h2>Yaklaşan Özel Günler</h2>
+            <div class="special-dates-container" id="special-dates-list">
+                <!-- Özel günler JavaScript ile doldurulacak -->
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
